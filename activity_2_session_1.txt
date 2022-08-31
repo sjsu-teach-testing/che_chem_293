@@ -1,0 +1,17 @@
+What does the model achieve?
+- Derives a linear correlation between Car MPG and Car Wt
+
+How should metrics be interpreted?
+- Slope is the relationship between Car MPG and Car Wt for the model (in addition to intercept)
+
+What are appropriate use cases?
+- Correlating two variables with the expectation that the relationship is linear
+
+How is it implemented? *
+- Minimizing residuals (difference between model and actual values for each data point)
+
+What are caveats/biases/concerns to its usage?
+- Only 3 sample points, may benefit from more data
+
+How to interpret this specific result and advising action/next steps
+- Car weight is heavily correlated with MPG, minimizing car weight can improve MPG drastically
